@@ -508,6 +508,8 @@ public class Bridge {
 
     public void reset() {
         savedCalls = new HashMap<>();
+        String js = localServer.jsInjector.getScriptString();
+        webView.evaluateJavascript(js, null);
     }
 
     /**
