@@ -32,8 +32,6 @@ public class BridgeActivity extends AppCompatActivity {
         } catch (PluginLoadException ex) {
             Logger.error("Error loading plugins.", ex);
         }
-
-        this.load();
     }
 
     protected void load() {
