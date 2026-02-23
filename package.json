@@ -41,5 +41,8 @@
     "semver": "^7.3.7",
     "swiftlint": "^2.0.0",
     "tar": "^7.5.3"
+  },
+  "dependencies": {
+    "@rollup/plugin-replace": "^6.0.3"
   }
 }
